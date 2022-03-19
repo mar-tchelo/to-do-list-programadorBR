@@ -1,0 +1,30 @@
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+#newTask{
+    height: 35px;
+    width: 80%;
+
+}
+button{
+    height:39px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    border: none;
+
+    transition: ease-in-out 0.5s;
+}
+
+button:hover{
+    
+    background-color:rgb(100, 182, 237);
+}
+
+ul button{
+    display: block;
+}
